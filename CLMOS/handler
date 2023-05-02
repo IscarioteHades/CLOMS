@@ -1,4 +1,4 @@
-from main_code import your_function_name_here
+from main_code import clmos_system
 
 def handler(request):
-    return your_function_name_here(request)
+    return clmos_system(request)
