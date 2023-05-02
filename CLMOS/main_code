@@ -28,3 +28,7 @@ else:
     for class_name, deadline in result:
         print('%s : %s' % (class_name, deadline))
         ('%s:%s' % (class_name, deadline))
+
+# エントリーポイントの定義(GCPで使うやつ)
+def handler(request):
+    return clmos_system(request)
