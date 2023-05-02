@@ -1,4 +1,0 @@
-from main_code import clmos_system
-
-def handler(request):
-    return clmos_system(request)
