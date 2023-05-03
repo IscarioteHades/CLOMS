@@ -1,3 +1,4 @@
+# 説明：メインコード。ここからシステムを動かす。
 from sub_code import insert
 from sub_code import get_event
 from sub_code import get_report
