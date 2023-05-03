@@ -1,9 +1,8 @@
 # 説明：メインコード。ここからシステムを動かす。
-from sub_code import insert
-from sub_code import get_event
 from sub_code import get_report
+from sub_code import get_event
+from sub_code import insert
 from datetime import datetime as dt
-from sub_code import notice
 from sub_code import some_function
 import requests
 
