@@ -1,3 +1,4 @@
+# 説明：課題情報のLINEへの転送
 from __future__ import print_function
 import datetime
 import pickle
