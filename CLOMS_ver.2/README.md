@@ -9,5 +9,13 @@ UNIPAとManabaを統合して、課題管理や体調管理表の提出を自動
 
 作成内容
 ・課題のリマインド
-・体調管理表
-・Yahooカレンダーとの連携
+・Google・Yahooカレンダーとの連携
+
+【模式図】
+CLMOS(フォルダ)
+├── main.py(最初に起動させるファイル)
+└── sub_code（フォルダ）
+    ├── __init__
+    ├── insert.py
+    ├── get_report.py
+    └──  get_event.py
