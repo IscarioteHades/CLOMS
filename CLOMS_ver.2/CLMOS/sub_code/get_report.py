@@ -12,8 +12,10 @@ options.add_argument('--headless')
 
 
 driver = webdriver.Chrome('./chromedriver')
-USERNAME = '122A31003'
-PASSWORD = 'Amatsuki0'
+#学籍番号
+USERNAME = '*******'
+#パスワード
+PASSWORD = '*******'
 wait = WebDriverWait(driver,10)
 
 def get_report_info():
@@ -27,7 +29,7 @@ def get_report_info():
     login_page.click()
     driver.implicitly_wait(10)
 
-    # ログインページにてメールアドレスを入力・「次へ進む」をクリック
+    # ログインページにて学籍番号を入力・「次へ進む」をクリック
     sleep(5)
     mail_field = driver.find_element(By.XPATH, '//*[@id="i0116"]')
     mail_field.send_keys(USERNAME)
