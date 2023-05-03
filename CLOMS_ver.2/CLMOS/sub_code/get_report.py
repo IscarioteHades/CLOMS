@@ -1,3 +1,4 @@
+# 説明：学生サイト「manaba」へのログイン・課題情報取得システム
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
