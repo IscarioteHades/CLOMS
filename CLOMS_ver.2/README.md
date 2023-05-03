@@ -19,3 +19,5 @@ CLMOS(フォルダ)
     ├── insert.py
     ├── get_report.py
     └──  get_event.py
+
+以上
