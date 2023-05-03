@@ -1,3 +1,4 @@
+# 説明：GoogleCalendarに関する処理系
 from __future__ import print_function
 import datetime
 import pickle
